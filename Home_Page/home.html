@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Home_Page/home.css">
+    <script src="https://kit.fontawesome.com/643597806a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Signup/Login</title>
+</head>
+
+<body>
+    <div class="app_container">
+        <div class="account_bar">
+            <div class="user_greet">
+                <h2>Hey Jane!</h2>
+                <span>Ready to find a meal</span>
+            </div>
+            <div class="user_account">
+                <img src="/Home_Page/img/like_cart.png" id="like_cart">
+                <!-- <h6><a href="/Login_Pages/login.html">login</a></h6> -->
+                <img src="/Home_Page/img/avatar.png" id="avatar_icon">
+                <h6 id="signout-btn">logout</h6>
+                <div class="sidebar" id="sidebar">
+                    <div class="sidebar_content">
+                        <div class="SB_exit">
+                            <img src="/Home_Page/img/Close.png" id="active_close_icon">
+                        </div>
+
+                        <div class="SB_account">
+                            <img src="/Home_Page/img/like_cart.png" id="active_like_cart">
+                            <img src="/Home_Page/img/avatar.png" id="active_avatar_icon">
+                        </div>
+                        <!-- i can add items in here for sidebar -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category_container">
+            <div class="slider">
+                <div class="category">
+                    <img src="/Home_Page/img/category_breakfast.png" class="category_icon" id="category_breakfast">
+                    <h6 class="category_text">Breakfast</h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_starter.png" class="category_icon" id="category_starter">
+                    <h6 class="category_text">Starter</h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_chicken.png" class="category_icon" id="category_chicken">
+                    <h6 class="category_text">Chicken</h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_seafood.png" class="category_icon" id="category_seafood">
+                    <h6 class="category_text">Seafood </h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_dessert.png" class="category_icon" id="category_dessert">
+                    <h6 class="category_text">Dessert</h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_vegan.png" class="category_icon" id="category_vegan">
+                    <h6 class="category_text">Vegan</h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_vegetarian.png" class="category_icon" id="category_vegetarian">
+                    <h6 class="category_text">Vegetarian</h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_goat.png" class="category_icon" id="category_goat">
+                    <h6 class="category_Goat">Goat</h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_beef.png" class="category_icon" id="category_beef">
+                    <h6 class="category_text">Beef</h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_lamb.png" class="category_icon" id="category_lamb">
+                    <h6 class="category_text">Lamb</h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_pasta.png" class="category_icon" id="category_pasta">
+                    <h6 class="category_text">Pasta</h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_pork.png" class="category_icon" id="category_pork">
+                    <h6 class="category_text">Pork</h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_side.png" class="category_icon" id="category_side">
+                    <h6 class="category_text">Side</h6>
+                </div>
+
+                <div class="category">
+                    <img src="/Home_Page/img/category_random.png" class="category_icon" id="category_random">
+                    <h6 class="category_text">Random</h6>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="search_bar_container">
+
+            <div class="search_bar">
+                <div class="search_context">
+                    <img src="/Home_Page/img/search_icon.png" id="search_img">
+                    <input type="search_meal" name="search" id="search_meal" placeholder="Search Meal">
+                    <div class="search_filter">
+                        <img src="/Home_Page/img/filter_icon.png" id="search_filter_img">
+                    </div>
+                </div>
+            </div>
+            <div class="random_meal_btn">
+                <button id="random_meal">Random Meal</button>
+            </div>
+
+        </div>
+        <div class="recommended_recipes">
+            <div class="recommended_heading">
+                <h4>Recommended Recipes</h4>
+                <span>All</span>
+            </div>
+
+            <div class="cards" id="Big_Mac">
+                <div class="card_details">
+                    <div class="card_heading">
+                        <h4>Big Mac</h4>
+                    </div>
+
+                    <div class="card_types">
+                        <p id="card_nationality">Nationality: American</p>
+                        <p id="card_category">Category: Beef</p>
+                    </div>
+
+                    <div class="card_btns">
+                        <img src="/Home_Page/img/share_icon.png" id="card_share_icon">
+                        <img src="/Home_Page/img/heart_icon.png" id="card_heart_icon">
+                    </div>
+                </div>
+
+                <div class="recipe_card">
+                    <img src="/Home_Page/img/big_mac.png" class="card_img">
+                </div>
+
+            </div>
+
+            <div class="cards" id="Big_Mac">
+                <div class="card_details">
+                    <div class="card_heading">
+                        <h4>Big Mac</h4>
+                    </div>
+
+                    <div class="card_types">
+                        <p id="card_nationality">Nationality: American</p>
+                        <p id="card_category">Category: Beef</p>
+                    </div>
+
+                    <div class="card_btns">
+                        <img src="/Home_Page/img/share_icon.png" id="card_share_icon">
+                        <img src="/Home_Page/img/heart_icon.png" id="card_heart_icon">
+                    </div>
+                </div>
+
+                <div class="recipe_card">
+                    <img src="/Home_Page/img/big_mac.png" class="card_img">
+                </div>
+
+            </div>
+
+            <div class="cards" id="Big_Mac">
+                <div class="card_details">
+                    <div class="card_heading">
+                        <h4>Big Mac</h4>
+                    </div>
+
+                    <div class="card_types">
+                        <p id="card_nationality">Nationality: American</p>
+                        <p id="card_category">Category: Beef</p>
+                    </div>
+
+                    <div class="card_btns">
+                        <img src="/Home_Page/img/share_icon.png" id="card_share_icon">
+                        <img src="/Home_Page/img/heart_icon.png" id="card_heart_icon">
+                    </div>
+                </div>
+
+                <div class="recipe_card">
+                    <img src="/Home_Page/img/big_mac.png" class="card_img">
+                </div>
+
+            </div>
+
+            <div class="cards" id="Big_Mac">
+                <div class="card_details">
+                    <div class="card_heading">
+                        <h4>Big Mac</h4>
+                    </div>
+
+                    <div class="card_types">
+                        <p id="card_nationality">Nationality: American</p>
+                        <p id="card_category">Category: Beef</p>
+                    </div>
+
+                    <div class="card_btns">
+                        <img src="/Home_Page/img/share_icon.png" id="card_share_icon">
+                        <img src="/Home_Page/img/heart_icon.png" id="card_heart_icon">
+                    </div>
+                </div>
+
+                <div class="recipe_card">
+                    <img src="/Home_Page/img/big_mac.png" class="card_img">
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+    <script src="/Home_Page/home.js" type="module"></script>
+</body>
+
+</html>

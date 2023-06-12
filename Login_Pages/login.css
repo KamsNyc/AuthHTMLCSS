@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: rgb(0, 0, 0);
+    background-color: rgb(58, 58, 58);
+}
+/*
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+}
+.app {
+    max-width: 396px;
+}
+.checkbox {
+    font-size: 9px;
+}
+.heading h3 {
+    font-size: 53px;
+    margin-bottom: 15px;
+}
+.heading {
+    font-size: 12px;
+}
+
+.content, .checkbox, .submit_button {
+    padding: 15px 5px;
+}
+
+.submit_button {
+    background-color: black;
+}
+
+.loginForm, .loginRegister {
+    margin-bottom: 10px;
+}
+*/
+
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 396px;
+    padding: 30px;
+    text-align: center;
+    background-color: #F3F3F3;
+}
+
+.heading {
+    margin-top: 60px;
+}
+
+.heading h3 {
+    font-family: 'Rouge Script', sans-serif;
+    font-size: 64px;
+    margin-bottom: 5px;
+}
+
+.heading p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 140%;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.content {
+    margin-top: 25px;
+}
+
+.content h4 {
+    font-family: 'Lora', sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.content input {
+    height: 40px;
+    width: 300px;
+    border-radius: 35px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    background-color: #D1D1D1;
+    margin-bottom: 15px;
+}
+
+#login_email_input, #login_password_input{
+    height: 40px;
+    width: 300px;
+    border-radius: 35px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+.orLogin {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+
+.orLogin a {
+    text-decoration: none;
+    color: #1813FF;
+    font-size: 12px;
+}
+
+#login-btn, #register-btn {
+    height: 40px;
+    width: 225px;
+    border-radius: 35px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: #B0FFEC;
+    cursor: pointer;
+}
